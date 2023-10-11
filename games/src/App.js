@@ -24,7 +24,11 @@ function App() {
     <div className="App">
       <div id="text-container">{typedText}</div>
       <div id="choose">Choose your game:</div>
-      <Card game="tictactoe"/>
+      <div className="games-grid">
+        <Card game="tictactoe"/>
+        <Card game="hangman"/>
+      </div>
+      
     </div>
   );
 }
